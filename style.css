@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+body {
+    font-family: adobe-clean, "adobe clean", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Roboto","游ゴシック",sans-serif;
+    overflow-y: scroll;
+}
+
+header {
+    background: url(../img/home_bg_top.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+header .img_container {
+    height: 800px;
+}
+
+.img_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.menu a{
+    display: block;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.menu li{
+    font-size: 8px;
+    text-align: center;
+    list-style:none;
+}
+
+.button {
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button li {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 13px;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 10px 8px;
+    list-style:none;
+}
+
+.button a {
+    display: block; 
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.platform {
+    background: url(../img/home_bg_middle.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.platform .img_container {
+    height: 800px;
+}
+
+.majorDebut {
+    background: url(../img/home_bg_bottom.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.majorDebut .img_container {
+    height: 800px;
+}
+
+.merit {
+    background: url(../img/home_bg_merit.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.merit .img_container {
+    height: 783px;
+}
+
+.explore {
+    background-color: #e8e8e8;
+    width: 1280px;
+    height: 400px;
+}
+
+.regist {
+    background-color: #000000e7;
+    width: 1280px;
+    height: 1000px;
+}
+
+.upperlogo {
+    width: 180px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: .03em;
+    padding-top: 50px;
+}
+
+.explorecaption {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.signupcaption {
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+ul {
+    display: flex;
+}
+
+.bottomlogo {
+    margin: 40px auto 20px;
+}
+
+.footerlogo{
+    margin-left: 60px;
+}
+
+.copyright {
+    color:#9e9e9e;
+    margin-left: 65px;
+}
+
+.footertxt {
+    width: 250px;
+    margin-right: 120px;
+}
+
+.footertxt li {
+    list-style:none;
+    display: wrap;
+    margin-bottom: 10px;
+}
+
+.footertxt a {
+    display: block; 
+    color:#9e9e9e;
+    text-decoration: none;
+}
+
+.footertxt li{
+    font-size: 10px;
+    text-align: center;
+}

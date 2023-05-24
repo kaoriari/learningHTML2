@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>MBA仮</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <link rel="stylesheet" href="css/style.css">
+  <header>
+    <div class="img_container">
+      <div class="upperlogo"><img src="img/title_logo.png" width="180" alt="ViVaLiVe"></div>
+      <div>
+        <ul class="button">
+          <li><a href="#">Sign up</a></li>
+          <li><a href="#">Log in</a></li>
+        </ul>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">ライブハウス</a></li>
+          <li><a href="#">バンド</a></li>
+          <li><a href="#">ミュージシャン</a></li>
+          <li><a href="#">イベンター</a></li>
+          <li><a href="#">リクエスト</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="platform">
+      <div class="img_container"></div>
+    </section>
+    <section class="majorDebut">
+      <div class="img_container"></div>
+    </section>
+    <section class="merit">
+      <div class="img_container"></div>
+    </section>
+    <section class="explore">
+      <div class="img_container">
+        <h2 class="explorecaption">まずは探してみよう!!</h2>
+        <div class="exploremain">
+          <ul>
+            <li>
+              <div class="exploreimg">
+                <img src="{{ url_for('static', filename='img/top/icon_explore01.svg') }}" alt="ライブハウスを探す">
+              </div>
+              <div class="explorebot">
+                <a href="/search/livehouse">
+                  <picture>
+                    <source media="(max-width:767px)"
+                      srcset="{{ url_for('static', filename='img/common/icon_explorebot01_sp.svg') }}">
+                    <img src="{{ url_for('static', filename='img/common/icon_explorebot01.svg') }}" alt="icon">
+                  </picture>
+                </a>
+                <p class="exploreti">ライブハウスを探す</p>
+                <p class="exploretxt">
+                  <img src="{{ url_for('static', filename='img/common/icon_explorebot02.svg') }}" alt="icon">
+                  <span>登録件数0件</span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="exploreimg">
+                <img src="{{ url_for('static', filename='img/top/icon_explore02.svg') }}" alt="バンドを探す">
+              </div>
+              <div class="explorebot">
+                <a href="/search/band">
+                  <picture>
+                    <source media="(max-width:767px)"
+                      srcset="{{ url_for('static', filename='img/common/icon_explorebot01_sp.svg') }}">
+                    <img src="{{ url_for('static', filename='img/common/icon_explorebot01.svg') }}" alt="icon">
+                  </picture>
+                </a>
+                <p class="exploreti">バンドを探す</p>
+                <p class="exploretxt">
+                  <img src="{{ url_for('static', filename='img/common/icon_explorebot02.svg') }}" alt="icon">
+                  <span>登録件数0件</span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="exploreimg">
+                <img src="{{ url_for('static', filename='img/top/icon_explore03.svg') }}" alt="ミュージシャンを探す">
+              </div>
+              <div class="explorebot">
+                <a href="/search/musician">
+                  <picture>
+                    <source media="(max-width:767px)"
+                      srcset="{{ url_for('static', filename='img/common/icon_explorebot01_sp.svg') }}">
+                    <img src="{{ url_for('static', filename='img/common/icon_explorebot01.svg') }}" alt="icon">
+                  </picture>
+                </a>
+                <p class="exploreti">ミュージシャンを探す</p>
+                <p class="exploretxt">
+                  <img src="{{ url_for('static', filename='img/common/icon_explorebot02.svg') }}" alt="icon">
+                  <span>登録件数0件</span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="exploreimg">
+                <img src="{{ url_for('static', filename='img/top/icon_explore04.svg') }}" alt="イベンターを探す">
+              </div>
+              <div class="explorebot">
+                <a href="/search/eventer">
+                  <picture>
+                    <source media="(max-width:767px)"
+                      srcset="{{ url_for('static', filename='img/common/icon_explorebot01_sp.svg') }}">
+                    <img src="{{ url_for('static', filename='img/common/icon_explorebot01.svg') }}" alt="icon">
+                  </picture>
+                </a>
+                <p class="exploreti">イベンターを探す</p>
+                <p class="exploretxt">
+                  <img src="{{ url_for('static', filename='img/common/icon_explorebot02.svg') }}" alt="icon">
+                  <span>登録件数0件</span>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="exploreimg">
+                <img src="{{ url_for('static', filename='img/top/icon_explore05.svg') }}" alt="リクエストを探す">
+              </div>
+              <div class="explorebot">
+                <a href="/search/request">
+                  <picture>
+                    <source media="(max-width:767px)"
+                      srcset="{{ url_for('static', filename='img/common/icon_explorebot01_sp.svg') }}">
+                    <img src="{{ url_for('static', filename='img/common/icon_explorebot01.svg') }}" alt="icon">
+                  </picture>
+                </a>
+                <p class="exploreti">リクエストを探す</p>
+                <p class="exploretxt">
+                  <img src="{{ url_for('static', filename='img/common/icon_explorebot02.svg') }}" alt="icon">
+                  <span>登録件数0件</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <section class="regist">
+      <div class="img_container">
+        <h2 class="signupcaption">新規登録はこちら!</h2>
+        <ul>
+          <li>
+            <div class="registmain">
+              <dv class="registmaintop">
+                <p class="registtit">ミュージシャンの方</p>
+                <img src="{{ url_for('static', filename='img/top/icon_regist01.svg') }}" alt="ミュージシャンの方">
+            </div>
+            <div class="registmainbot">
+              <p class="registtxt">ライブをやってみたい</p>
+              <p class="registtxt">同じジャンルのバンドを誘う</p>
+              <p class="registtxt">メンバー募集したい</p>
+            </div>
+            <div class="registmainbut">
+              <a href="/auth/create">GET STARTED</a>
+            </div>
+          </li>
+          <li>
+            <div class="registmaintop">
+              <p class="registtit">ライブハウスの方</p>
+              <img src="{{ url_for('static', filename='img/top/icon_regist02.svg') }}" alt="ライブハウスの方">
+            </div>
+            <div class="registmainbot">
+              <p class="registtxt">ライブをやってほしい</p>
+              <p class="registtxt">ジャンル縛りでイベント開催</p>
+              <p class="registtxt">新しいバンドを探したい</p>
+            </div>
+            <div class="registmainbut">
+              <a href="/auth/create">GET STARTED</a>
+            </div>
+          </li>
+        </ul>
+        <div class="bottomlogo"><img src="img/title_logo.png" width="380" alt="ViVaLiVe"></div>
+        <p class="footerp">バンド活動は<br>あなたに一⽣分の魔法をかける</p>
+        <footer>
+          <div class="footerlogo"><img src="img/footer_logo2.png" width="200" alt="ViVaLiVe"></div>
+          <p class="copyright"><small>© 2020 Punio LLC</small></p>
+          <div>
+            <ul class="footertxt">
+              <li><a href="#">お問合せ</a></li>
+              <li><a href="#">利用規約</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">料金案内</a></li>
+              <li><a href="#">プライバシーポリシー</a></li>
+            </ul>
+        </footer>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
