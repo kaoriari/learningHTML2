@@ -16,28 +16,28 @@
   <link rel="stylesheet" href="css/style.css">
   <header>
     <div class="img_container">
-    <section class="headerbox">
+      <section class="headerbox">
         <div class="headermain">
           <div class="headerlogo"><img src="img/title_logo.png" width="180" alt="ViVaLiVelogo"></div>
           <div class="headerright">
             <nav class="headernav">
               <ul>
-                <li><a href="#"><img src="img/icon_home.png" alt="home_icon">ホーム</a></li>
-                <li><a href="#"><img src="img/icon_livehouse.png" alt="livehouse_icon">ライブハウス</a></li>
-                <li><a href="#"><img src="img/icon_band.png" alt="band_icon">バンド</a></li>
-                <li><a href="#"><img src="img/icon_musician.png" alt="musician_icon">ミュージシャン</a></li>
-                <li><a href="#"><img src="img/icon_eventer.png" alt="eventer_icon">イベンター</a></li>
-                <li><a href="#"><img src="img/icon_request.png" alt="request_icon">リクエスト</a></li>
+                <li><a href="index.html"><img src="img/icon_home.png" alt="home_icon">ホーム</a></li>
+                <li><a href="search-livehouse.html"><img src="img/icon_livehouse.png" alt="livehouse_icon">ライブハウス</a></li>
+                <li><a href="search-band.html"><img src="img/icon_band.png" alt="band_icon">バンド</a></li>
+                <li><a href="search-musician.html"><img src="img/icon_musician.png" alt="musician_icon">ミュージシャン</a></li>
+                <li><a href="search-eventer.html"><img src="img/icon_eventer.png" alt="eventer_icon">イベンター</a></li>
+                <li><a href="search-request.html"><img src="img/icon_request.png" alt="request_icon">リクエスト</a></li>
               </ul>
             </nav>
             <div class="button">
-              <li><a href="#">Sign up</a></li>
-              <li><a href="#">Log in</a></li>
+              <li><a href="sign-in.html">Sign up</a></li>
+              <li><a href="auth_login.html">Log in</a></li>
             </div>
           </div>
         </div>
-    </section>
-  </div>
+      </section>
+    </div>
   </header>
   <main>
     <section class="platform">
@@ -54,14 +54,16 @@
         <div class="mainbox">
           <h2 class="explorecaption">まずは探してみよう!!</h2>
           <div class="exploremain">
-            <ul>
+            <ul class="ul1">
               <li>
                 <div class="exploreimg">
-                  <img src="img/icon_livehouse.png" alt="ライブハウスを探す">
+                  <a href="/search/livehouse"><img src="img/icon_livehouse.png" alt="ライブハウスを探す"></a>
                 </div>
                 <div class="explorebot">
                   <a href="/search/livehouse"><img src="img/backplate_search.png" alt="icon"></a>
-                  <p class="exploreti">ライブハウスを探す</p>
+                  <a href="/search/livehouse">
+                    <p class="exploreti">ライブハウスを探す</p>
+                  </a>
                   <p class="exploretxt">
                     <span>登録件数0件</span>
                   </p>
@@ -69,11 +71,13 @@
               </li>
               <li>
                 <div class="exploreimg">
-                  <img src="img/icon_band.png" alt="バンドを探す">
+                  <a href="/search-band"><img src="img/icon_band.png" alt="バンドを探す"></a>
                 </div>
                 <div class="explorebot">
-                  <a href="/search/band"><img src="img/backplate_search.png" alt="icon"></a>
-                  <p class="exploreti">バンドを探す</p>
+                  <a href="/search-band"><img src="img/backplate_search.png" alt="icon"></a>
+                  <a href="/search/band">
+                    <p class="exploreti">バンドを探す</p>
+                  </a>
                   <p class="exploretxt">
                     <span>登録件数0件</span>
                   </p>
@@ -81,23 +85,29 @@
               </li>
               <li>
                 <div class="exploreimg">
-                  <img src="img/icon_musician.png" alt="ミュージシャンを探す">
+                  <a href="/search/musician"><img src="img/icon_musician.png" alt="ミュージシャンを探す"></a>
                 </div>
                 <div class="explorebot">
                   <a href="/search/musician"><img src="img/backplate_search.png" alt="icon"></a>
-                  <p class="exploreti">ミュージシャンを探す</p>
+                  <a href="/search/musician">
+                    <p class="exploreti">ミュージシャンを探す</p>
+                  </a>
                   <p class="exploretxt">
                     <span>登録件数0件</span>
                   </p>
                 </div>
               </li>
+            </ul>
+            <ul class="ul2">
               <li>
                 <div class="exploreimg">
-                  <img src="img/icon_eventer.png" alt="イベンターを探す">
+                  <a href="/search/eventer"><img src="img/icon_eventer.png" alt="イベンターを探す"></a>
                 </div>
                 <div class="explorebot">
                   <a href="/search/eventer"><img src="img/backplate_search.png" alt="icon"></a>
-                  <p class="exploreti">イベンターを探す</p>
+                  <a href="/search/eventer">
+                    <p class="exploreti">イベンターを探す</p>
+                  </a>
                   <p class="exploretxt">
                     <span>登録件数0件</span>
                   </p>
@@ -105,11 +115,13 @@
               </li>
               <li>
                 <div class="exploreimg">
-                  <img src="img/icon_request.png" alt="リクエストを探す">
+                  <a href="/search/request"><img src="img/icon_request.png" alt="リクエストを探す"></a>
                 </div>
                 <div class="explorebot">
                   <a href="/search/request"><img src="img/backplate_search.png" alt="icon"></a>
-                  <p class="exploreti">リクエストを探す</p>
+                  <a href="/search/request">
+                    <p class="exploreti">リクエストを探す</p>
+                  </a>
                   <p class="exploretxt">
                     <span>登録件数0件</span>
                   </p>
@@ -121,43 +133,50 @@
     </section>
     <section class="regist">
       <div class="img_container">
-        <h2 class="signupcaption">新規登録はこちら!</h2>
-        <ul>
-          <li>
-            <div class="registmain">
-              <dv class="registmaintop">
-                <p class="registtit">ミュージシャンの方</p>
-                <img src="" alt="ミュージシャンの方">
-            </div>
-            <div class="registmainbot">
-              <p class="registtxt">ライブをやってみたい</p>
-              <p class="registtxt">同じジャンルのバンドを誘う</p>
-              <p class="registtxt">メンバー募集したい</p>
-            </div>
-            <div class="registmainbut">
-              <a href="/auth/create">GET STARTED</a>
-            </div>
-          </li>
-          <li>
-            <div class="registmaintop">
-              <p class="registtit">ライブハウスの方</p>
-              <img src="" alt="ライブハウスの方">
-            </div>
-            <div class="registmainbot">
-              <p class="registtxt">ライブをやってほしい</p>
-              <p class="registtxt">ジャンル縛りでイベント開催</p>
-              <p class="registtxt">新しいバンドを探したい</p>
-            </div>
-            <div class="registmainbut">
-              <a href="/auth/create">GET STARTED</a>
-            </div>
-          </li>
-        </ul>
-        <div class="bottomlogo"><img src="img/title_logo.png" width="380" alt="ViVaLiVe"></div>
-        <p class="footerp">バンド活動は<br>あなたに一⽣分の魔法をかける</p>
+        <div class="mainbox">
+					<div class="registtop">
+						<h2 class="signupcaption">新規登録はこちら!</h2>
+					</div>				
+					<div class="registmain">
+						<ul>
+							<li>
+								<div class="registmaintop">
+									<p class="registtit">ミュージシャンの方</p>
+									<img src="img/icon_band.png" alt="ミュージシャンの方">
+								</div>
+								<div class="registmainbot">
+									<p class="registtxt">ライブをやってみたい</p>
+									<p class="registtxt">同じジャンルのバンドを誘う</p>
+									<p class="registtxt">メンバー募集したい</p>
+								</div>
+								<div class="registmainbut">
+									<a href="#">GET STARTED</a>
+								</div>
+							</li>
+							<li>
+								<div class="registmaintop">
+									<p class="registtit">ライブハウスの方</p>
+									<img src="img/icon_livehouse.png" alt="ライブハウスの方">
+								</div>
+								<div class="registmainbot">
+									<p class="registtxt">ライブをやってほしい</p>
+									<p class="registtxt">ジャンル縛りでイベント開催</p>
+									<p class="registtxt">新しいバンドを探したい</p>
+								</div>
+								<div class="registmainbut">
+									<a href="#">GET STARTED</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
     </section>
     <footer>
       <div class="img_container">
+        <div class="footertop">
+          <img src="img/title_logo.png" width="380" alt="ViVaLiVe">
+          <p class="footerp">バンド活動は<br>あなたに一⽣分の魔法をかける</p>
+        </div>
         <div class="footerbot">
           <div class="footerleft">
             <div class="footerlogo"><img src="img/footer_logo2.png" width="200" alt="ViVaLiVe"></div>
@@ -165,13 +184,13 @@
           </div>
           <div class="footernav">
             <ul>
-              <li><a href="#">お問合せ</a></li>
-              <li><a href="#">利用規約</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="contact.html">お問合せ</a></li>
+              <li><a href="terms.html">利用規約</a></li>
+              <li><a href="faq.html">FAQ</a></li>
             </ul>
             <ul>
-              <li><a href="#">料金案内</a></li>
-              <li><a href="#">プライバシーポリシー</a></li>
+              <li><a href="pricing-info.html">料金案内</a></li>
+              <li><a href="privacy-policy.html">プライバシーポリシー</a></li>
             </ul>
           </div>
         </div>
