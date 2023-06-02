@@ -50,6 +50,7 @@ header .img_container {
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
+    border: 0;
 }
 
 .headernav {
@@ -143,7 +144,7 @@ header .img_container {
     background: url(../img/home_bg_middle.png);
     background-repeat: no-repeat;
     background-size: auto;
-}
+    }
 
 .platform .img_container {
     height: 800px;
