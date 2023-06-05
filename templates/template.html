@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ band_info.name }}</title>
+</head>
+<body>
+    <h1>{{ band_info.name }}</h1>
+    <h2>Genre: {{ band_info.genre }}</h2>
+
+    <h3>Members:</h3>
+    <ul>
+        {% for member in band_info.members %}
+        <li>{{ member }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>News:</h3>
+    {% for item in news %}
+    <h4>{{ item.title }}</h4>
+    <p>Date: {{ item.date }}</p>
+    <p>{{ item.content }}</p>
+    {% endfor %}
+</body>
+</html>
+
+<!-- <html>
+<head>
+    <title>{{ title1 }}</title>
+</head>
+<body>
+    <h1>Hello, {{ name }}!</h1>
+    <p>{{ content }}</p>
+</body>
+</html> -->
