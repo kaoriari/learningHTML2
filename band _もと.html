@@ -83,17 +83,17 @@
 							<div class="smachimg">
 								<picture>
 									<source media="(max-width:767px)" srcset="img/top/smachimg_sp.jpg">
-									<img src={{ band_img }} alt={{ band_name }}>
+									<img src="img/top/smachimg.jpg" alt="Smach gank">
 								</picture>									
 							</div>
 							<div class="smachtitle">
-								<p class="smachti">{{ band_name }}</p>
-								<a class="smachbon" href={{ buttonlink }}>{{ button }}</a>
-								<p class="smachtxt">{{ genre }}</p>
-								<a class="smachmap" href={{ location_link }}>{{ location }}</a>
+								<p class="smachti">Smach gank</p>
+								<a class="smachbon" href="#">BAND</a>
+								<p class="smachtxt">4piac / Pank </p>
+								<a class="smachmap" href="#">Tokyo</a>
 							</div>
 							<div class="smachbot">
-								<p class="smachbotti">{{ introduction }}</p>
+								<p class="smachbotti">私たちは〇〇でXXXXなバンドです。私たちは〇〇でXXXXなバンドです。私たちは〇〇でXXXXなバンドです。よろしくお願いします</p>
 							</div>
 						</div>
 					</div>
@@ -103,15 +103,27 @@
 						</div>
 						<div class="newstmain">
 							<ul>
-								{% for news in news_list %}
 								<li>
-									<a href="{{ news.link }}">
-										<span class="newsttxt">{{ news.date }}</span>
-										<p class="newsttitle">{{ news.title }}</p>
+									<a href="#">
+										<span class="newsttxt">2020.1.25</span>
+										<p class="newsttitle">ここにニュースが入ります</p>
 										<img src="img/common/icon_news01.svg" alt="icon">
 									</a>
 								</li>
-								{% endfor %}
+								<li>
+									<a href="#">
+										<span class="newsttxt">2020.1.25</span>
+										<p class="newsttitle">ここにニュースが入ります</p>
+										<img src="img/common/icon_news01.svg" alt="icon">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="newsttxt">2020.1.25</span>
+										<p class="newsttitle">ここにニュースが入ります</p>
+										<img src="img/common/icon_news01.svg" alt="icon">
+									</a>
+								</li>
 							</ul>
 							<a class="newstmore" href="#">…もっと見る</a>
 						</div>
